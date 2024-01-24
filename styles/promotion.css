@@ -1,0 +1,33 @@
+.promotion > h1 {
+  font-family: "Raleway", Sans-serif;
+  color: #1a1a1a;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.1em;
+  letter-spacing: 0px;
+}
+.promotion > p,
+.promotion-p {
+  color: #4f4f4f;
+  font-family: "DM Sans", Sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+.promotion-h3 {
+  font-family: "Raleway", Sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1.3em;
+  letter-spacing: 0.2px;
+}
+.promotion-p {
+  font-size: 16px;
+}
+.promotion-card {
+  transition: all 0.3s;
+}
+.promotion-card:hover {
+  transform: translateY(-0.5%);
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,63 @@
+.testimonials-p1{
+    color: #4ccabd;
+    font-family: "Inter", Sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+}
+
+.testimonials-h3{
+    text-align: left;
+    color: #1A1A1A;
+    font-family: "Raleway", Sans-serif;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 1.1em;
+    letter-spacing: 0px;
+}
+.testimonials-p2{
+    color: #4F4F4F;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.8em;
+    letter-spacing: 0px;
+}
+
+
+/* reaction cards */
+.reaction-cardsp1{
+    text-align: left;
+    color: #242426;
+    font-family: "Raleway", Sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 0px;
+}
+
+.reaction-cardsh1{
+    color: #1A1A1A;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+
+.reaction-cardsp2{
+    color: #6C6C6E;
+    font-family: "Raleway", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+.reaction-card{
+    border-radius: 30px 30px 30px 30px;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-color: #F3F2F3C4;
+    box-shadow: 0px 40px 40px -20px rgba(209, 209, 209, 0.35);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}

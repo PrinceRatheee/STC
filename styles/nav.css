@@ -1,0 +1,37 @@
+.brand {
+  font-weight: 800;
+  letter-spacing: -0.021em;
+  font-size: 38px;
+  color: #212529;
+}
+.nav {
+  background-image: url("../public/crypto-bg-234.png");
+}
+.navlink{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0;
+    transition: all 0.2s ease-in;
+}
+.signInBtn{
+    font-family: "Raleway", Sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    transition: all 0.2s ease-in;
+    background: transparent;
+    border: 1px solid #21252980;
+    color: #212529;
+    
+  }
+.signInBtn:hover{
+    background: #212529;
+    color: white;
+
+}
+.navlink:hover{
+    color: #d74407;
+    cursor: pointer;
+}
+

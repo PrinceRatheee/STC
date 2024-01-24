@@ -1,0 +1,41 @@
+.whyus-p1{
+    color: #4ccabd;
+    font-family: "Inter", Sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+}
+.whyus-h3{
+    text-align: left;
+    color: #1A1A1A;
+    font-family: "Raleway", Sans-serif;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 1.1em;
+    letter-spacing: 0px;
+}
+.whyus-p2{
+    color: #4F4F4F;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.8em;
+    letter-spacing: 0px;
+}
+.list-p{
+    
+    
+    /* font-family: "DM Sans", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 0px;  */
+    color: #1A1A1A;
+    
+}
+.whyus-svg{
+    color: #4ccabd;
+    fill: #4ccabd;
+}

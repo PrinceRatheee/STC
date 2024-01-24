@@ -1,0 +1,47 @@
+.learncrypto-p1 {
+    color: #4ccabd;
+    font-family: "Inter", Sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+}
+
+.learncrypto-h1{
+    text-align: left;
+    color: #1A1A1A;
+    font-family: "Raleway", Sans-serif;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 1.1em;
+    letter-spacing: 0px;
+}
+.learncrypto-p2{
+    color: #4F4F4F;
+    font-family: "DM Sans", Sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.8em;
+    letter-spacing: 0px;
+}
+.learncrypto-btn{
+    font-family: "Raleway", Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    fill: #FA4F09;
+    color: #FA4F09;
+    background-color: #FA4F0900;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-color: #1A1A1A57;
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: 0px 10px 20px 0px rgba(255, 255, 255, 0);
+    padding: 0px 0px 0px 0px;
+    transition: all 0.3s ease-in;
+}
+.learncrypto-btn:hover{
+    fill: black;
+    color: black;
+}

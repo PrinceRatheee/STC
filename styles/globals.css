@@ -1,0 +1,192 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Raleway:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter:wght@800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+
+
+.top-section {
+  background-image: url("../public/crypto-bg-234.png");
+}
+.firstSectionHeading {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 68px;
+  color: #1a1a1a;
+  line-height: 1.1em;
+  letter-spacing: 0px;
+}
+.firstSectionPara {
+  font-family: "DM Sans", sans-serif;
+  color: #4f4f4f;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.8em;
+  letter-spacing: 0px;
+}
+
+.bg-primary-orange {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 87 34 / var(--tw-bg-opacity));
+}
+.firstSectionBtn {
+  font-family: "Raleway", Sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  transition: all 0.2s ease-in;
+}
+
+.firstSectionBtn:hover {
+  background-color: #d74407;
+}
+
+.procedure-top > div:nth-child(3) > div {
+  max-width: 14rem;
+}
+.procedure-top > div:nth-child(2) > div {
+  max-width: 14rem;
+}
+.procedure-top > div:nth-child(1) > div {
+  max-width: 14rem;
+}
+.procedure-top > div:nth-child(1) > div:nth-child(2) > h3 {
+  font-family: "Raleway", Sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.3em;
+  letter-spacing: 0.2px;
+}
+.procedure-top > div:nth-child(2) > div:nth-child(2) > h3 {
+  font-family: "Raleway", Sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.3em;
+  letter-spacing: 0.2px;
+}
+.procedure-top > div:nth-child(3) > div:nth-child(2) > h3 {
+  font-family: "Raleway", Sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.3em;
+  letter-spacing: 0.2px;
+}
+
+.procedure-top > div:nth-child(1) > div:nth-child(2) > p {
+  text-align: left;
+  color: #6c6c6e;
+  font-family: "DM Sans", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+.procedure-top > div:nth-child(2) > div:nth-child(2) > p {
+  text-align: left;
+  color: #6c6c6e;
+  font-family: "DM Sans", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+.procedure-top > div:nth-child(3) > div:nth-child(2) > p {
+  text-align: left;
+  color: #6c6c6e;
+  font-family: "DM Sans", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+.procedure-top {
+  border-radius: 40px 40px 40px 40px;
+}
+
+.learnMoreBtn {
+  font-family: "Raleway", Sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  transition: all 0.2s ease-in;
+  background: transparent;
+  border: 1px solid #21252980;
+  color: #212529;
+}
+.learnMoreBtn:hover {
+  background: #212529;
+  color: white;
+}
+
+/* Terms Mobile  */
+.terms-mobile > div:nth-child(2) > h1,
+.workGuide > :nth-child(1) > h1 {
+  font-family: "Raleway", Sans-serif;
+  color: #1a1a1a;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.1em;
+  letter-spacing: 0px;
+}
+
+.terms-mobile > :nth-child(2) > :nth-child(3),
+.workGuide > :nth-child(1) > :nth-child(3) {
+  color: #4f4f4f;
+  font-family: "DM Sans", Sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.8em;
+  letter-spacing: 0px;
+}
+.terms-mobile > :nth-child(2) > :nth-child(1),
+.workGuide > :nth-child(1) > :nth-child(1) {
+  color: #4ccabd;
+  font-family: "Inter", Sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  letter-spacing: 1px;
+}
+
+/* Work Guide */
+.workGuide-section {
+  background-image: url("/bg-nft-234s.png");
+}
+.workGuide > :nth-child(1) > h1 {
+  font-size: 43px;
+}
+
+/* promotion section background */
+.promotion-section {
+  background-image: url("/crypto-bg-234.png");
+}
+
+
+/* Learn Crypto Section Background */
+.learnCrypto-section{
+  background-image: url("/bg-nft-234s.png");
+}
+
+/* Why us section background  */
+.whyus-section{
+  background-image: url("/bg-sdg.png");
+}
+
+/* Testimonials section background */
+.testimonials-section{
+  background-image: url("/bg-nft-234s.png");
+}
+
+
+/* FAQ SECTION  */
+.faq-section{
+  background-color: url("/bg-rypto.png");
+}
+
+
+/* fonts  */
+.merriweather-font{
+  font-family: 'Merriweather Sans', sans-serif;
+}
