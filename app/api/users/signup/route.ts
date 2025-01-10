@@ -14,12 +14,12 @@ export async function POST(request:NextRequest ){
         
         const {username,email,password}=reqBody;
 
-        console.log("Signup Req Body");
         console.log(reqBody);
-
+        
         //first check if user already exist
         const user = await User.findOne({email});
         console.log(user)
+        console.log("Signup Req Body");
         if(user){
             return NextResponse.json({error:"User Already Exists"},{status:400});
         }
